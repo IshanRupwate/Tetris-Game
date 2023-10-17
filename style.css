@@ -5,8 +5,7 @@
 
 } */
 h1 {
-  font-size: 65px;
-  font-weight: 400;
+  font-size: 45px;
 }
 
 body {
@@ -21,9 +20,7 @@ body {
   margin: auto;
   width: 50%;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
+  padding-left: 150px;
 }
 
 button {
@@ -33,13 +30,14 @@ button {
   padding: 8px 10px;
   font-weight: 200;
   margin: auto;
-  font-size: 50px;
+  margin-left: 657px;
+  margin-bottom: 25px;
 }
 
 /* rgba(162, 57, 202, 1) */
 .grid {
-  width: 300px;
-  height: 600px;
+  width: 200px;
+  height: 400px;
   display: flex;
   flex-wrap: wrap;
   background-color: #e0e2db;
@@ -50,8 +48,8 @@ button {
 }
 
 .grid div {
-  height: 30px;
-  width: 30px;
+  height: 20px;
+  width: 20px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
     rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
@@ -62,30 +60,30 @@ button {
 }
 
 .mini-grid {
-  width: 120px;
-  height: 120px;
+  margin-left: 50px;
+  width: 80px;
+  height: 80px;
   display: flex;
   flex-wrap: wrap;
   /* border: thin solid red; */
 
-  background-color: #addcfe;
+  background-color: #e0e2db;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
     rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .mini-grid div {
-  height: 30px;
-  width: 30px;
+  height: 20px;
+  width: 20px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
     rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
 .display {
-  padding: 20px 25px;
+  padding: 20px 50px;
   font-size: medium;
-  display: flex;
   justify-content: center;
   align-content: center;
 }
@@ -97,13 +95,7 @@ button {
 .display h3 {
   background-color: #4e6e81;
   border-radius: 8px;
-  padding: 5px 5px;
+  padding: 5px 8px;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-  font-size: 50px;
-}
-.nextShape {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: 10px 20px;
+  font-size: 150%;
 }
